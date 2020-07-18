@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: tan;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myschool.FXMLDocumentController">
+   <children>
+      <TextField fx:id="text_login_password" layoutX="503.0" layoutY="326.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label fx:id="label_login_username" alignment="CENTER" layoutX="117.0" layoutY="253.0" prefHeight="46.0" prefWidth="231.0" style="-fx-background-color: tan; -fx-font-size: 20;" text="UserName" GridPane.rowIndex="1">
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </Label>
+      <Label fx:id="label_login_verification" alignment="CENTER" contentDisplay="CENTER" layoutX="246.0" layoutY="413.0" prefHeight="46.0" prefWidth="365.0" style="-fx-font-size: 20;" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Label fx:id="label_welcome_myschool" alignment="CENTER" layoutX="146.0" layoutY="90.0" prefHeight="88.0" prefWidth="565.0" style="-fx-background-color: tan; -fx-font-size: 50; -fx-font-style: italic; -fx-font-family: arial;" text="Welcome to MySchool">
+         <padding>
+            <Insets bottom="15.0" left="30.0" right="30.0" top="15.0" />
+         </padding>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#111111" />
+                  <Stop color="#424546" offset="0.24904214559386972" />
+                  <Stop color="#feeeff" offset="0.424971363115693" />
+                  <Stop color="#f2fcff" offset="0.7062843148872294" />
+                  <Stop color="#949d9e" offset="0.729470316388197" />
+                  <Stop color="#959797" offset="0.8064936603863005" />
+                  <Stop color="#474c51" offset="0.8984871825255734" />
+                  <Stop color="#202122" offset="0.9578544061302682" />
+                  <Stop color="#0a0a0a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label_login_password" alignment="CENTER" layoutX="87.0" layoutY="307.0" prefHeight="62.0" prefWidth="269.0" style="-fx-background-color: tan; -fx-font-size: 20;" text="Password" GridPane.rowIndex="2">
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="10.0" top="15.0" />
+         </padding>
+      </Label>
+      <TextField fx:id="text_login_username" layoutX="503.0" layoutY="263.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button fx:id="button_login" layoutX="386.0" layoutY="480.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="85.0" style="-fx-background-color: black;" text="LOG IN" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button layoutX="512.0" layoutY="480.0" mnemonicParsing="false" onAction="#loginasguest" prefHeight="39.0" prefWidth="184.0" text="LOGIN AS GUEST" />
+   </children>
+</AnchorPane>

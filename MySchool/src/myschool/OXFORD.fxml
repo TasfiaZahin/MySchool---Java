@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myschool.OXFORDController">
+   <children>
+      <Label alignment="CENTER" layoutY="50.0" prefHeight="63.0" prefWidth="800.0" style="-fx-font-family: arial; -fx-font-size: 50; -fx-font-style: italic;" text="MySchool">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#079bed" />
+                  <Stop color="#079bed" offset="0.24904214559386972" />
+                  <Stop color="#feeeff" offset="0.424971363115693" />
+                  <Stop color="#f2fcff" offset="0.5721846980289924" />
+                  <Stop color="#84eaf5" offset="0.698818975392029" />
+                  <Stop color="#82e8f5" offset="0.8064936603863008" />
+                  <Stop color="#1d90f5" offset="0.8793300944029689" />
+                  <Stop color="#0aa4fa" offset="0.9578544061302682" />
+                  <Stop color="#0a0a0a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Button fx:id="button_oxford_cse" alignment="CENTER" layoutX="113.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="574.0" style="-fx-font-size: 20; -fx-background-color: black;" text="Computer Science &amp; Engineering (CSE)" textFill="AQUA" />
+      <Button fx:id="button_oxford_eee" alignment="CENTER" layoutX="113.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="574.0" style="-fx-font-size: 20; -fx-background-color: black;" text="Electrical &amp; Electronic Engineering (EEE)" textFill="AQUA" />
+      <Button fx:id="button_oxford_me" alignment="CENTER" layoutX="113.0" layoutY="348.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="574.0" style="-fx-font-size: 20; -fx-background-color: black;" text="Mechanical Engineering (Me)" textFill="AQUA" />
+      <Button fx:id="button_back_university" alignment="CENTER" layoutX="618.0" layoutY="422.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="139.0" style="-fx-font-size: 15; -fx-background-color: black;" text="Back to University" textFill="#41ff0c" />
+      <Button fx:id="button_log_out" alignment="CENTER" layoutX="618.0" layoutY="469.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="139.0" style="-fx-font-size: 15; -fx-background-color: black;" text="LOG_OUT" textFill="#41ff0c" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="140.0" prefHeight="63.0" prefWidth="800.0" style="-fx-font-family: arial; -fx-font-size: 35; -fx-font-style: italic;" text="OXFORD_HOME">
+         <textFill>
+            <RadialGradient centerX="0.4666666666666667" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#079bed" />
+                  <Stop color="#079bed" offset="0.24904214559386972" />
+                  <Stop color="#feeeff" offset="0.424971363115693" />
+                  <Stop color="#f2fcff" offset="0.5721846980289924" />
+                  <Stop color="#84eaf5" offset="0.698818975392029" />
+                  <Stop color="#82e8f5" offset="0.8064936603863008" />
+                  <Stop color="#1d90f5" offset="0.8793300944029689" />
+                  <Stop color="#0aa4fa" offset="0.9578544061302682" />
+                  <Stop color="#fffbff" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+        
+   </children>
+</AnchorPane>

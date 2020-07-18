@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myschool.BUET_EEEController">
+   <children>
+       <Label alignment="CENTER" layoutY="7.0" prefHeight="63.0" prefWidth="800.0" style="-fx-font-family: arial; -fx-font-size: 50; -fx-font-style: italic;" text="BUET EEE">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#079bed" />
+                  <Stop color="#079bed" offset="0.24904214559386972" />
+                  <Stop color="#feeeff" offset="0.424971363115693" />
+                  <Stop color="#f2fcff" offset="0.5721846980289924" />
+                  <Stop color="#84eaf5" offset="0.698818975392029" />
+                  <Stop color="#82e8f5" offset="0.8064936603863008" />
+                  <Stop color="#1d90f5" offset="0.8793300944029689" />
+                  <Stop color="#0aa4fa" offset="0.9578544061302682" />
+                  <Stop color="#0a0a0a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+     </Label>
+      <TextArea fx:id="Text" layoutX="71.0" layoutY="113.0" prefHeight="100.0" prefWidth="534.0" promptText="Write Something">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="button_send" layoutX="543.0" layoutY="221.0" mnemonicParsing="false" onAction="#Send" text="Send">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="newsfeed" layoutX="71.0" layoutY="278.0" prefHeight="308.0" prefWidth="534.0" text="&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="button_back_buet" alignment="CENTER" layoutX="618.0" layoutY="422.0" mnemonicParsing="false" onAction="#Send" prefHeight="47.0" prefWidth="139.0" style="-fx-font-size: 15; -fx-background-color: black;" text="BUET Home" textFill="#41ff0c" />
+      <Button fx:id="button_log_out" alignment="CENTER" layoutX="618.0" layoutY="469.0" mnemonicParsing="false" onAction="#Send" prefHeight="39.0" prefWidth="139.0" style="-fx-font-size: 15; -fx-background-color: black;" text="LOG_OUT" textFill="#41ff0c" />
+      <Button fx:id="button_see" layoutX="415.0" layoutY="221.0" mnemonicParsing="false" onAction="#Send" text="Show Post">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
